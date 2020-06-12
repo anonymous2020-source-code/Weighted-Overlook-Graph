@@ -1,4 +1,3 @@
-function [adjmatrix] = data_representation(EEG_signals,Lable)
 %EEG_signals consists of n segments where each segment contains 256 sampling points.
 %Label is a one-dimensional array of length n. Positive is 1 and negative is 0.
 [n,m,~] = size(EEG_signals);
