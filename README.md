@@ -1,6 +1,6 @@
 # Weighted-Overlook-Graph
 This This repository holds the source code of Overlook Graph method.
-The code consists of three parts: data, complex_network, and 2D-CNN.
+The code consists of three parts: Data, Complex_network, and 2D-CNN.
 
 Data
 
