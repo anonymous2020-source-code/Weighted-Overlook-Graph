@@ -15,7 +15,7 @@ end
 [n,m,~] = size(EEG_signals);
 Label = zeros(1,n); %when you construct E use Lable = ones(1,n);
 for k = 1:n
-Adjmatrix = overlook(EEG_signals(k,:));%You can also use LPhorizontal1 and LPvisibility1 construct adjcency matrix.
+Adjmatrix = overlook(EEG_signals(k,:));
 L = Label(k);
 str=[num2str(L),'_',num2str(k),'.png'];
 imwrite(Adjmatrix,strcat('F:\data\complex_network_A\',str),'png');
