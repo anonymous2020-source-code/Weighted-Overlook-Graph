@@ -18,4 +18,4 @@ Next, please take the following two steps.
 
   Step 1. Change the path in line 20 and 21 of training.py to the train and test folder's path.
   
-  Step 2. Run the following command in your command council.
+  Step 2. Run the command in your command council.
